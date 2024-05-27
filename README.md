@@ -17,7 +17,7 @@ Este é um projeto que utiliza o framework Flask para criar uma API capaz de det
 1. Clone o repositório para sua máquina local:
 
     ```
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/OrlandoMartinho/ia_detensao_de_virus
     ```
 
 2. Instale as dependências necessárias. Você pode usar o `pip` para instalar as dependências listadas no arquivo `requirements.txt`:
