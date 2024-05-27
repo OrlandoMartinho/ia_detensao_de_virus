@@ -42,4 +42,3 @@ Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestõe
 
 ---
 
-Este é um esboço do README. Sinta-se à vontade para personalizá-lo com mais detalhes sobre a implementação, os modelos de IA utilizados, como os endpoints da API funcionam e qualquer outra informação relevante para os usuários e contribuidores do projeto.
