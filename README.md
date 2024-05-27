@@ -35,7 +35,13 @@ Este é um projeto que utiliza o framework Flask para criar uma API capaz de det
     ```
 
 2. Acesse os endpoints da API para interagir com a aplicação e obter previsões sobre a maliciosidade dos sites.
+Para testar o endpoint de análise com um JSON contendo a URL, você pode usar o comando `curl` ou qualquer outra ferramenta de envio de requisições HTTP. Aqui está um exemplo usando `curl`:
 
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"url":"exemplo.com"}' http://127.0.0.1:5000/analizar
+```
+
+Este comando envia um JSON `{"url": "exemplo.com"}` para a rota `http://127.0.0.1:5000/analizar` via método POST. Certifique-se de substituir `"exemplo.com"` pela URL que você deseja analisar.
 ### Contribuição
 
 Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.

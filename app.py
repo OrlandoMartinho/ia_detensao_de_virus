@@ -6,7 +6,7 @@ from api import predict
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/prever', methods=['POST'])
+@app.route('/analizar', methods=['POST'])
 def domain_info():
     data = request.get_json()
     if not data or 'url' not in data:
